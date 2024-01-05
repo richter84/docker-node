@@ -2,6 +2,7 @@ version: "3"
 services:
   node-app:
     build: .
+    image: richter84/docker-node
     depends_on:
       - mongo-db
   
