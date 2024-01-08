@@ -40,7 +40,7 @@ app.use(cors())
 app.use(express.json());
 
 app.get('/api/v1', (req, res) => {
-  res.send('Hello Docker image');
+  res.send('Hello Docker image 14:20');
   console.log("yeah it ran");
 });
 
